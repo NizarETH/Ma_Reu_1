@@ -1,6 +1,6 @@
 # OpenClassrooms
 
-Ce dépôt contient une mini-application pour le P3 du parcours **Grande École du Numérique**."# p3_entrevoisin2" 
-"# entrevoisin4" 
-# entrevoisins5
+Ce dépôt contient une mini-application pour le P4 du parcours **Grande École du Numérique**."
+"# Ma Réu"
+
 # Ma_Reu_1
