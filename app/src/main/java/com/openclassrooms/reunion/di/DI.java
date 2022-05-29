@@ -4,6 +4,7 @@ import com.openclassrooms.reunion.service.DummyReunionApiService;
 import com.openclassrooms.reunion.service.DummyReunionApiService;
 import com.openclassrooms.reunion.service.ReunionApiService;
 import com.openclassrooms.reunion.service.ReunionApiService;
+import com.openclassrooms.reunion.ui.reunion_list.Utils;
 
 /**
  * Dependency injector to get instance of services
@@ -27,4 +28,5 @@ public class DI {
     public static ReunionApiService getNewInstanceApiService() {
         return new DummyReunionApiService();
     }
+
 }

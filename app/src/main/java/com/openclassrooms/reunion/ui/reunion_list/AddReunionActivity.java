@@ -89,22 +89,6 @@ public class AddReunionActivity extends AppCompatActivity {
 
     }
 
-   // @OnClick(R.id.create)
-  //  void addNeighbour() {
-   //     Reunion reunion = new Reunion(
-   //             System.currentTimeMillis(),
-  //              nameReunion.getEditText().getText().toString(),
-   //             mNeighbourImage,
-  //              addressInput.getEditText().getText().toString(),
-   //             phoneInput.getEditText().getText().toString(),
-  //              aboutMeInput.getText().toString(),
-  //              addMail.getEditText().getText().toString(),
-  //              false
-  //      );
-  //      mApiService.createReunion(reunion);
-   //     finish();
-  //  }
-
     /**
      * Generate a random image. Useful to mock image picker
      * @return String

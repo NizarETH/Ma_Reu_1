@@ -43,9 +43,17 @@ public class MyReunionRecyclerViewAdapter extends RecyclerView.Adapter<MyReunion
         holder.mReunionSalle.setText(reunion.getHeureReunion());
 
         // Jacques ici il faut afficher tous les emails et pas un seul
+      String emails = "";
+        for (int i = 0; i < reunion.getMailAddresse().size(); i++) {
+            if(i == 0)
+                emails = reunion.getMailAddresse().get(0);
+            else
 
-        holder.listParticipant.setText( reunion.getMailAddresse().get(0));
+            emails = emails + (", "+reunion.getMailAddresse().get(i));
+        }
+        holder.listParticipant.setText(emails);
 
+      holder. mReunionAvatar.setBackgroundColor(Utils.getRandomColor());
 
         holder.mDeleteButton.setOnClickListener(new View.OnClickListener() {
            @Override
